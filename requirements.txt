@@ -4,6 +4,4 @@ markupsafe==2.0.1
 flask-restful
 mysql-connector-python
 
-flask-jwt-extended
-
 
