@@ -69,7 +69,7 @@ class UserRegisterResource(Resource) :
 
 
 
-        return {'result':'success','access_token':access_token}, 200
+        return {'result':'success','access_token':access_token,'msg':'hello'}, 200
 
 class UserLoginResource(Resource) :
     def post(self) :
